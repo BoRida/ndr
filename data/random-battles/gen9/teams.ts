@@ -2213,8 +2213,9 @@ export class RandomTeams {
 		const formes: string[][] = [];
 		for (const species of speciesPool) {
 			if (!(species.num in hasDexNumber)) continue;
-			if (isNotCustom && (species.gen > this.gen ||
-				(species.isNonstandard && species.isNonstandard !== 'Unobtainable'))) continue;
+			/*if (isNotCustom && (species.gen > this.gen ||
+				(species.isNonstandard && species.isNonstandard !== 'Unobtainable'))) continue;*/
+			// I want Missingno
 			if (requiredType && !species.types.includes(requiredType)) continue;
 			if (!formes[hasDexNumber[species.num]]) formes[hasDexNumber[species.num]] = [];
 			formes[hasDexNumber[species.num]].push(species.name);
