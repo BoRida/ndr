@@ -3618,7 +3618,13 @@
                 "role": "Setup Sweeper",
                 "movepool": ["Knock Off", "Leaf Blade", "Leaf Storm", "Sucker Punch", "Swords Dance"],
                 "teraTypes": ["Dark", "Steel"]
-            }
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Explosion", "Knock Off", "Leaf Blade", "Sucker Punch"],
+                "teraTypes": ["Dark", "Steel"]
+            },
+          
         ]
     },
     "tailow": {
