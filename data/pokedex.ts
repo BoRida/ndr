@@ -19749,4 +19749,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	zubatman: {
+		num: -9000,
+		name: "Zubatman",
+		types: ["Flying", "Poison"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 70, atk: 60, def: 55, spa: 55, spd: 70, spe: 80},
+		abilities: {0: "Im Batman"},
+		heightm: 0.7,
+		weightkg: 6.9,
+		color: "Purple",
+		eggGroups: ["Undiscovered"],
+	},
 };
